@@ -1,0 +1,62 @@
+case 1:
+-------
+ball direction down ---> x = x+1 , y = y+2
+
+
+case 2:
+-------
+ball direction up ----> x = x+1 , y = y-2
+
+
+case 3:
+-------
+ball collide with bar 
+
+	case 3 A)
+	---------
+	NewX > OldX ----> x = x+1 , y = y-2
+	
+	case 3 B)
+	---------
+	NewX < OldX ----> x = x-1 , y = y-2
+
+
+case 4:
+-------
+ball collide with upper frame
+
+	case 4 A)
+	---------	
+	NewX > OldX ----> x = x+1 , y = y+2
+
+	case 4 B)
+	---------
+	newX < OldX ----> x = x-1 , y = y+2
+
+
+case 5:
+-------
+ball collide with left frame going down
+
+NewX < OldX ----> x = x+1 , y = y+2
+
+
+case 6:
+-------
+ball collide with left frame going up
+
+NewX < Old -----> x = x+1 , y = y-2
+
+
+case 7:
+-------
+ball collide with right frame going down
+
+NewX > OldX ----> x = x-1 , y = y+2
+
+
+case 8:
+-------
+ball collide with right frame going up
+
+NewX > OldX ----> x = x-1 , y = y-2 

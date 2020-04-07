@@ -1,0 +1,9 @@
+mohammed:400
+moussa:1400
+aly:1200
+moh:1100
+saidd:1200
+sa3ed:6200
+Mary:2900
+joe:1900
+SA3ED:1500
